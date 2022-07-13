@@ -1,5 +1,6 @@
 {
   "name": "proc1",
+  "homepage": "https://github.com/minijainn/first-react-deploy.git",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -42,6 +43,6 @@
   "devDependencies": {
     "gh-pages": "^4.0.0",
     "react-devtools": "^4.24.7"
-  },
-  "homepage": "https://github.com/minijainn/first-react-deploy.git"
+  }
+  
 }
