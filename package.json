@@ -17,7 +17,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "devtools":"react-devtools"
+    "devtools": "react-devtools",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -38,6 +40,8 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "react-devtools": "^4.24.7"
-  }
+  },
+  "homepage": "https://github.com/minijainn/first-react-deploy.git"
 }
