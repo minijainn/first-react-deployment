@@ -11,3 +11,76 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  padding: 0 10px;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr th {
+  font-size: 18px;
+  padding: 12px;
+  border: 1px solid #d1c9c9;
+  text-align: left;
+  background-color: rgba(217, 221, 146, 0.2);
+}
+
+tr td {
+  border: 1px solid #eeeeee;
+  text-align: left;
+}
+input[type="button"]{
+  background: #2B2D2F;
+  height: 2rem;
+  width: 100px;
+  text-align: center;
+  margin: 1rem auto;
+  cursor: pointer;
+  border-radius: 4px;
+  color:white;
+}
+
+button{
+  background-color: #4dccc6;
+background-image: linear-gradient(315deg, #4dccc6 0%, #96e4df 74%);
+  line-height: 1.5rem;
+  padding: 0;
+  border: none;
+}
+button:hover{
+  background-color: #89d8d3;
+background-image: linear-gradient(315deg, #89d8d3 0%, #03c8a8 74%);
+}
+button:before,
+button:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+   box-shadow:  4px 4px 6px 0 rgba(255,255,255,.9),
+              -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.9),
+    inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+  transition: all 0.3s ease;
+}
+button:before {
+  height: 0%;
+  width: .1px;
+}
+button:after {
+  width: 0%;
+  height: .1px;
+}
+button:hover:before {
+  height: 100%;
+}
+button:hover:after {
+  width: 100%;
+}
