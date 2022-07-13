@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/first-react-deployment/static/css/main.3ec75151.css",
+    "main.js": "/first-react-deployment/static/js/main.93b2fb6b.js",
+    "index.html": "/first-react-deployment/index.html",
+    "main.3ec75151.css.map": "/first-react-deployment/static/css/main.3ec75151.css.map",
+    "main.93b2fb6b.js.map": "/first-react-deployment/static/js/main.93b2fb6b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ec75151.css",
+    "static/js/main.93b2fb6b.js"
+  ]
+}
